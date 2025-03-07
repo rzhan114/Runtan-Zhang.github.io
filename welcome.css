@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+
+.hero {
+    height: 100hv;
+    background: url('Runtan.JPG') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+.hero img {
+    max-width: 100%;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 50%;
+    max-width: 500px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.overlay h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.overlay p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #555;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
