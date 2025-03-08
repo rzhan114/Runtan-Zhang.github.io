@@ -53,11 +53,11 @@ body {
 
 button {
     padding: 14px 30px;
-    font-size: 20px; /* 增大按钮文字 */
-    border: 2px solid powderblue; /* 添加边框 */
+    font-size: 20px; 
+    border: 2px solid powderblue; 
     border-radius: 5px;
-    background: transparent; /* 使按钮无填充 */
-    color: white; /* 使文本颜色匹配边框 */
+    background: transparent;
+    color: white;
     cursor: pointer;
     transition: 0.3s;
     margin-top: 15px;
