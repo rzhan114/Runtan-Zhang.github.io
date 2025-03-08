@@ -8,7 +8,7 @@ body {
 
 
 .hero {
-    height: 100hv;
+    height: 80hv;
     background: url('Runtan.JPG') center/cover no-repeat;
     display: flex;
     align-items: center;
@@ -16,6 +16,7 @@ body {
     position: relative;
     flex-direction: column;
 }
+
 .hero img {
     max-width: 100%;
     max-height: 80vh;
@@ -51,12 +52,12 @@ body {
 }
 
 button {
-    padding: 12px 25px;
-    font-size: 18px;
-    border: none;
+    padding: 14px 30px;
+    font-size: 20px; /* 增大按钮文字 */
+    border: 2px solid powderblue; /* 添加边框 */
     border-radius: 5px;
-    /* background: #007bff; */
-    color: white;
+    background: transparent; /* 使按钮无填充 */
+    color: white; /* 使文本颜色匹配边框 */
     cursor: pointer;
     transition: 0.3s;
     margin-top: 15px;
